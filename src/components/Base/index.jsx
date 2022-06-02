@@ -27,13 +27,16 @@ function Base() {
             title: taskTitle,
             id: Math.random(10),
             completed: false,
-        }]
+            },
+        ];
+
+        setTasks(newTask);
     }
 
     return (
         <div className="wrapper-todo">
             <div className="content-top">
-                <AddButton onClick={handleAddTask()}/>
+                <AddButton handleAddTask={handleAddTask}/>
             </div>
             
             <Tasks tasks={tasks}/>
