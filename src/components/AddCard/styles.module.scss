@@ -1,0 +1,47 @@
+.addCardContainer {
+    background: #fff;
+    padding: 25px 0;
+
+    h2 {
+        text-align: center;
+    }
+
+    .wrapperItems {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .wrapInput {
+            label {
+                display: block;
+                color: gray;
+                margin-bottom: 5px;
+            }
+
+            input {
+                width: 200px;
+                height: 25px;
+                font-size: 18px;
+                padding: 5px;
+            }
+        }
+    }
+
+    button {
+        width: 200px;
+        margin: 20px auto;
+        display: block;
+        background: rgb(43, 177, 43);
+        color: #fff;
+        font-size: 20px;
+        padding: 15px 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.4s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

@@ -7,6 +7,11 @@ const Tasks = ({ tasks }) => {
         <div className="task">
             {tasks.map((tasks) => (
                 <UniqueTask tasks={tasks}/>
+                // (tasks.completed) === true
+                // ? 
+                // <p>Apagado</p>
+                // // <UniqueTask tasks={tasks}/>
+                // :
             ))}
         </div>
     )

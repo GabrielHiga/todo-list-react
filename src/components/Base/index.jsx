@@ -5,21 +5,21 @@ import './style.scss'
 
 function Base() {
     const [tasks, setTasks] = useState([
-        {
-            id: "1",
-            title: "Estudar",
-            completed: false,
-        },
-        {
-            id: "2",
-            title: "Correr",
-            completed: false,
-        },
-        {
-            id: "3",
-            title: "Exercitar",
-            completed: false,
-        },
+        // {
+        //     id: "1",
+        //     title: "Estudar",
+        //     completed: false,
+        // },
+        // {
+        //     id: "2",
+        //     title: "Correr",
+        //     completed: false,
+        // },
+        // {
+        //     id: "3",
+        //     title: "Exercitar",
+        //     completed: false,
+        // },
     ]);
 
     const handleAddTask = (taskTitle) => {

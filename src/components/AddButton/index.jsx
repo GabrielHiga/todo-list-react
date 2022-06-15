@@ -9,8 +9,10 @@ const AddButton = ({ handleAddTask }) => {
     }
 
     const handleAddTaskClick = () => {
-        handleAddTask(inputData)
-        console.log("Está funcionando!")
+        if (inputData.length >= 1) {
+            handleAddTask(inputData)
+            setInputData('')
+        }
     }
 
     return (

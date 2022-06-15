@@ -1,0 +1,25 @@
+* {
+    overflow: hidden;
+
+    .navContainer {
+        background: #000;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 30px;
+            transition: 0.4s ease;
+
+            &:hover { 
+                color: #b3b3b3;
+            }
+        }
+    }
+}
